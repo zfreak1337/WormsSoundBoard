@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sergantworms">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantAmazing"
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:soundEffectsEnabled="false"
+                    android:text="amazing" />
+
+                <Button
+                    android:id="@+id/btnSergantBoring"
+                    android:layout_width="198dp"
+                    android:soundEffectsEnabled="false"
+                    android:layout_height="wrap_content"
+                    android:text="Boring" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantBrilliant"
+                    android:layout_width="match_parent"
+                    android:soundEffectsEnabled="false"
+                    android:layout_height="wrap_content"
+                    android:text="Brilliant" />
+
+                <Button
+                    android:id="@+id/btnSergantBummer"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bummer" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantBungee"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bungee" />
+
+                <Button
+                    android:id="@+id/btnSergantByebye"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Byebye" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantCollect"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collect" />
+
+                <Button
+                    android:id="@+id/btnSergantComeonthen"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comeonthen" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantCoward"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coward" />
+
+                <Button
+                    android:id="@+id/btnSergantDRAGONPUNCH"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DRAGONPUNCH" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantDROP"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DROP" />
+
+                <Button
+                    android:id="@+id/btnSergantEXCELLENT"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EXCELLENT" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantFATALITY"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FATALITY" />
+
+                <Button
+                    android:id="@+id/btnSergantFIRE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIRE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantFIREBALL"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIREBALL" />
+
+                <Button
+                    android:id="@+id/btnSergantFIRSTBLOOD"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIRSTBLOOD" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantFLAWLESS"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FLAWLESS" />
+
+                <Button
+                    android:id="@+id/btnSergantGOAWAY"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GOAWAY" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantGRENADE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GRENADE" />
+
+                <Button
+                    android:id="@+id/btnSergantHELLO"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HELLO" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantHURRY"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HURRY" />
+
+                <Button
+                    android:id="@+id/btnSergantYESSIR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YESSIR" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantINCOMING"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INCOMING" />
+
+                <Button
+                    android:id="@+id/btnSergantJUMP1"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUMP1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantJUMP2"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUMP2" />
+
+                <Button
+                    android:id="@+id/btnSergantJUSTYOUWAIT"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUSTYOUWAIT" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantKAMIKAZE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KAMIKAZE" />
+
+                <Button
+                    android:id="@+id/btnSergantLAUGH"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LAUGH" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantLEAVEMEALONE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LEAVEMEALONE" />
+
+                <Button
+                    android:id="@+id/btnSergantMISSED"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MISSED" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantNOOO"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NOOO" />
+
+                <Button
+                    android:id="@+id/btnSergantOHDEAR"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OHDEAR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantOINUTTER"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OINUTTER" />
+
+                <Button
+                    android:id="@+id/btnSergantOOFF1"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOFF1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantOOFF2"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOFF2" />
+
+                <Button
+                    android:id="@+id/btnSergantOOFF3"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOFF3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantOOPS"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOPS" />
+
+                <Button
+                    android:id="@+id/btnSergantORDERS"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ORDERS" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantOUCH"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OUCH" />
+
+                <Button
+                    android:id="@+id/btnSergantOW1"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OW1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantOW2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OW2" />
+
+                <Button
+                    android:id="@+id/btnSergantOW3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OW3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantPERFECT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERFECT" />
+
+                <Button
+                    android:id="@+id/btnSergantREVENGE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REVENGE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantRUNAWAY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RUNAWAY" />
+
+                <Button
+                    android:id="@+id/btnSergantSTUPID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STUPID" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantTAKECOVER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAKECOVER" />
+
+                <Button
+                    android:id="@+id/btnSergantTRAITOR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRAITOR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnKamikazeUHOH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UHOH" />
+
+                <Button
+                    android:id="@+id/btnSergantVICTORY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VICTORY" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantWATCHTHIS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WATCHTHIS" />
+
+                <Button
+                    android:id="@+id/btnSergantWHATTHE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHATTHE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSergantYOULLREGRETTHAT"
+                    android:layout_width="212dp"
+                    android:layout_height="wrap_content"
+                    android:text="YOULLREGRETTHAT" />
+
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

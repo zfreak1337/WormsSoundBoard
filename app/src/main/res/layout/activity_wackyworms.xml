@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wackyworms">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyAmazing"
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:soundEffectsEnabled="false"
+                    android:text="amazing" />
+
+                <Button
+                    android:id="@+id/btnWackyBoring"
+                    android:layout_width="198dp"
+                    android:soundEffectsEnabled="false"
+                    android:layout_height="wrap_content"
+                    android:text="Boring" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyBrilliant"
+                    android:layout_width="match_parent"
+                    android:soundEffectsEnabled="false"
+                    android:layout_height="wrap_content"
+                    android:text="Brilliant" />
+
+                <Button
+                    android:id="@+id/btnWackyBummer"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bummer" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyBungee"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bungee" />
+
+                <Button
+                    android:id="@+id/btnWackyByebye"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Byebye" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyCollect"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collect" />
+
+                <Button
+                    android:id="@+id/btnWackyComeonthen"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comeonthen" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyCoward"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coward" />
+
+                <Button
+                    android:id="@+id/btnWackyDRAGONPUNCH"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DRAGONPUNCH" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyDROP"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DROP" />
+
+                <Button
+                    android:id="@+id/btnWackyEXCELLENT"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EXCELLENT" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyFATALITY"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FATALITY" />
+
+                <Button
+                    android:id="@+id/btnWackyFIRE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIRE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyFIREBALL"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIREBALL" />
+
+                <Button
+                    android:id="@+id/btnWackyFIRSTBLOOD"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIRSTBLOOD" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyFLAWLESS"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FLAWLESS" />
+
+                <Button
+                    android:id="@+id/btnWackyGOAWAY"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GOAWAY" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyGRENADE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GRENADE" />
+
+                <Button
+                    android:id="@+id/btnWackyHELLO"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HELLO" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyHURRY"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HURRY" />
+
+                <Button
+                    android:id="@+id/btnWackyILLGETYOU"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ILLGETYOU" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyINCOMING"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INCOMING" />
+
+                <Button
+                    android:id="@+id/btnWackyJUMP1"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUMP1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyJUMP2"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUMP2" />
+
+                <Button
+                    android:id="@+id/btnWackyJUSTYOUWAIT"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUSTYOUWAIT" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyKAMIKAZE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KAMIKAZE" />
+
+                <Button
+                    android:id="@+id/btnWackyLAUGH"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LAUGH" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyLEAVEMEALONE"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LEAVEMEALONE" />
+
+                <Button
+                    android:id="@+id/btnWackyMISSED"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MISSED" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyNOOO"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NOOO" />
+
+                <Button
+                    android:id="@+id/btnWackyOHDEAR"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OHDEAR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyOINUTTER"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OINUTTER" />
+
+                <Button
+                    android:id="@+id/btnWackyOOFF1"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOFF1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyOOFF2"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOFF2" />
+
+                <Button
+                    android:id="@+id/btnWackyOOFF3"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOFF3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyOOPS"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OOPS" />
+
+                <Button
+                    android:id="@+id/btnWackyORDERS"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ORDERS" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyOUCH"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OUCH" />
+
+                <Button
+                    android:id="@+id/btnWackyOW1"
+                    android:soundEffectsEnabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OW1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyOW2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OW2" />
+
+                <Button
+                    android:id="@+id/btnWackyOW3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OW3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyPERFECT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERFECT" />
+
+                <Button
+                    android:id="@+id/btnWackyREVENGE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REVENGE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyRUNAWAY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RUNAWAY" />
+
+                <Button
+                    android:id="@+id/btnWackySTUPID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STUPID" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyTAKECOVER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAKECOVER" />
+
+                <Button
+                    android:id="@+id/btnWackyTRAITOR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRAITOR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyUHOH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UHOH" />
+
+                <Button
+                    android:id="@+id/btnWackyVICTORY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VICTORY" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyWATCHTHIS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WATCHTHIS" />
+
+                <Button
+                    android:id="@+id/btnWackyWHATTHE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WHATTHE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyWOBBLE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WOBBLE" />
+
+                <Button
+                    android:id="@+id/btnWackyYESSIR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YESSIR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnWackyYOULLREGRETTHAT"
+                    android:layout_width="212dp"
+                    android:layout_height="wrap_content"
+                    android:text="YOULLREGRETTHAT" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
