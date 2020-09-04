@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button geezer;
     Button italianworm;
     Button spanishworm;
+    Button germanworm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         italianworm.setOnClickListener(this);
         spanishworm = findViewById(R.id.spanishworms);
         spanishworm.setOnClickListener(this);
+        germanworm = findViewById(R.id.germanworm);
+        germanworm.setOnClickListener(this);
     }
 
     @Override
@@ -96,6 +99,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.spanishworms:
                 intent = new Intent(this, spanishworm.class);
+                startActivity(intent);
+                break;
+            case R.id.germanworm:
+                intent = new Intent(this, germanworm.class);
                 startActivity(intent);
                 break;
         }
